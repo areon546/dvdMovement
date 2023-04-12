@@ -67,8 +67,8 @@ while running:
     else: 
         player_pos.y = player_pos.y
 
-    if (player_pos.x == 0 or player_pos.x == screen_width):
-        if (player_pos.y == 0 or player_pos.y == screen_width):
+    if (player_pos.x == 0 or player_pos.x == screen_width-50):
+        if (player_pos.y == 0 or player_pos.y == screen_height-50):
             print("corner!!")
             corners+=1
 
